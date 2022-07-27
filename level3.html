@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Zvovo.NET</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script src-"scripts/main.js"></script>
+  </head>
+  <body>
+      <center><h1>Welcome to ZvovoNet</h1></center>
+        <center><h2>In this calculator you can get information about the final velocity, hit angle and distance between start and final points</h2></center>
+        Please enter the values below:<br><br>
+        <div>
+        <form action="main.js">
+          <label for="Ivelocity">Intial velocity:</label><br>
+          <input type="number" id="velocity" name="velocity" value="0"><br>
+          <label for="Ihigh">Intial high:</label><br>
+          <input type="number" id="high" name="high" value="0"><br>
+          <label for="Iangle">Launch angle:</label><br>
+          <input type="number" id="angle" name="angle" value="0"><br>
+          <input type="submit" value="Submit">
+        </form> 
+        <script>
+          all(Velocity,High,Angle);
+          </script>
+    </body>
+</html>
